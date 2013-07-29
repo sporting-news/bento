@@ -12,7 +12,7 @@ session =
                          ],
                          :memory_size => "512",
                          :iso_file => iso,
-                         :iso_md5 => "690138908de516b6e5d7d180d085c3f3",
+                         :iso_md5 => "4a5fa01c81cc300f4729136e28ebe600",
                          :iso_src => "#{iso_url}" })
 
 Veewee::Session.declare session
