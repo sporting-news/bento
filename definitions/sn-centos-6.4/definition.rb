@@ -4,7 +4,7 @@ iso = "CentOS-6.4-x86_64-netinstall.iso"
 iso_url = "http://mirror.yellowfiber.net/centos/6.4/isos/x86_64/#{iso}"
 
 session =
-  COMMON_SESSION.merge({ :boot_cmd_sequence =>
+  CENTOS_SESSION.merge({ :boot_cmd_sequence =>
                          [
                            '<Esc> ',
                            'linux text ks=http://%IP%:%PORT%/ks.cfg ',
