@@ -1,9 +1,11 @@
 # Bento
 
+[![Build Status](https://travis-ci.org/opscode/bento.png)](https://travis-ci.org/opscode/bento)
+
 Bento is a project that encapsulates [Packer](http://packer.io) templates for building
 [Vagrant](http://vagrantup.com) baseboxes. We use these boxes internally at Opscode for
 testing Hosted Enterprise Chef, Private Enterprise Chef and our open source [cookbooks](http://community.opscode.com/users/Opscode)
-via [test-kitchen](http://github.com/opscode/test-kitchen).
+via [test-kitchen](http://kitchen.ci/).
 
 ## Current Baseboxes
 
@@ -18,8 +20,8 @@ These baseboxes were all built using a Mac OS X host running VirtualBox 4.3.2, a
 
 * [opscode-centos-5.10-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-5.10-i386_chef-provisionerless.box)
 * [opscode-centos-5.10](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-5.10_chef-provisionerless.box)
-* [opscode-centos-6.4-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.4-i386_chef-provisionerless.box)
-* [opscode-centos-6.4](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.4_chef-provisionerless.box)
+* [opscode-centos-6.5-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.5-i386_chef-provisionerless.box)
+* [opscode-centos-6.5](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.5_chef-provisionerless.box)
 * [opscode-debian-6.0.8-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_debian-6.0.8-i386_chef-provisionerless.box)
 * [opscode-debian-6.0.8](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_debian-6.0.8_chef-provisionerless.box)
 * [opscode-debian-7.2.0-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_debian-7.2.0-i386_chef-provisionerless.box)
@@ -50,8 +52,8 @@ The boxes should work unchanged in VMWare Workstation for Windows or Linux.
 
 * [opscode-centos-5.10-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_centos-5.10-i386_chef-provisionerless.box)
 * [opscode-centos-5.10](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_centos-5.10_chef-provisionerless.box)
-* [opscode-centos-6.4-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_centos-6.4-i386_chef-provisionerless.box)
-* [opscode-centos-6.4](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_centos-6.4_chef-provisionerless.box)
+* [opscode-centos-6.5-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_centos-6.5-i386_chef-provisionerless.box)
+* [opscode-centos-6.5](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_centos-6.5_chef-provisionerless.box)
 * [opscode-debian-6.0.8-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_debian-6.0.8-i386_chef-provisionerless.box)
 * [opscode-debian-6.0.8](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_debian-6.0.8_chef-provisionerless.box)
 * [opscode-debian-7.2.0-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_debian-7.2.0-i386_chef-provisionerless.box)
