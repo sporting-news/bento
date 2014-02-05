@@ -97,7 +97,7 @@ If you want to use a another mirror site, use mirror variable.
 
 If you only have VMware or VirtualBox available, you may also tell Packer to build only that box.
 
-    $ packer build -only=virtualbox debian-7.2.0-i386.json
+    $ packer build -only=virtualbox-iso debian-7.2.0-i386.json
 
 Congratulations! You now have box(es) in the ../builds directory that you can then add to Vagrant and start testing cookbooks.
 
@@ -112,6 +112,28 @@ boxes yourself due to licensing constraints. You can build these as follows:
 
     $ bundle install
     $ bundle exec veewee vbox build [definition-name]
+
+### Special Note About Building from Windows Hosts
+
+When building boxes from a Windows host system, you must ensure that kickstart configuration files (`ks.cfg` for RHEL
+based systems) and preseed files (`preseed.cfg` for Debian based systems) have Unix line endings (i.e. lines end with
+LF character only). Moreover, it's also a good idea to have `*.sh` scripts with Unix line endings too.
+
+When these files have Windows line endings, the group creation can fail in the pre-seed phase and in turn, prevents the
+user `vagrant` to be created correctly. This ultimately results in Packer not being able to connect to the newly booted
+up machine with an error message that looks like this:
+
+```
+==> virtualbox-iso: Waiting for SSH to become available...
+==> virtualbox-iso: Error waiting for SSH: handshake failed: ssh: unable to authenticate, attempted methods [none password], no support
+```
+
+Since Packer tries to log in with user `vagrant` but it was not created successfully in the pre-seed phase, it is unable
+to connect to the machine and the packaging process stops.
+
+By default, when cloning this repository, git should normalize `ks.cfg`, `preseed.cfg` and `*.sh` to Unix line endings
+and `*.bat` to Windows line endings, thanks to the [.gitattributes](.gitattributes) file in the repository. However, if
+it's not the case because you have overridden line-ending conversion in your own git configuration, convert the offending files so they have the correct line endings.
 
 ## Bugs and Issues
 
