@@ -2,7 +2,7 @@
   "builders": [
     {
       "boot_command": [
-        "<tab> linux text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/centos-6.5/sn-ks.cfg<enter><wait>"
+        "<tab> linux text ks=http://{{ .HTTPIP }}:{{ .HTTPPort }}/centos-6.6/sn-ks.cfg<enter><wait>"
       ],
       "boot_wait": "10s",
       "disk_size": 40960,
@@ -11,8 +11,8 @@
       "http_directory": "http",
       "iso_checksum": "3a9662cb65f9d59677d76acfdb73289da43b4599",
       "iso_checksum_type": "sha1",
-      "iso_url": "{{user `mirror`}}/6.5/isos/x86_64/CentOS-6.5-x86_64-netinstall.iso",
-      "output_directory": "sn-packer-centos-6.5-x86_64",
+      "iso_url": "{{user `mirror`}}/6.6/isos/x86_64/CentOS-6.6-x86_64-netinstall.iso",
+      "output_directory": "sn-packer-centos-6.6-x86_64",
       "shutdown_command": "echo 'vagrant'|sudo -S /sbin/halt -h -p",
       "ssh_password": "vagrant",
       "ssh_port": 22,
@@ -34,12 +34,12 @@
         ]
       ],
       "virtualbox_version_file": ".vbox_version",
-      "vm_name": "sn-packer-centos-6.5-x86_64"
+      "vm_name": "sn-packer-centos-6.6-x86_64"
     }
   ],
   "post-processors": [
     {
-      "output": "../builds/{{.Provider}}/sn-centos-6.5.box",
+      "output": "../builds/{{.Provider}}/sn-centos-6.6.box",
       "type": "vagrant"
     }
   ],
