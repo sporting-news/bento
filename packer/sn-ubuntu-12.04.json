@@ -5,7 +5,7 @@
   },
   "builders": [
     {
-      "type": "virtualbox",
+      "type": "virtualbox-iso",
       "boot_command": [
         "<esc><wait>",
         "<esc><wait>",
