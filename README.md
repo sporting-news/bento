@@ -26,11 +26,13 @@ These baseboxes were all built using a Mac OS X host running VirtualBox 4.3.16, 
 * [opscode-centos-5.11](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-5.11_chef-provisionerless.box)
 * [opscode-centos-6.6-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.6-i386_chef-provisionerless.box)
 * [opscode-centos-6.6](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-6.6_chef-provisionerless.box)
-* [opscode-centos-7.0](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-7.0_chef-provisionerless.box)
+* [opscode-centos-7.1](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_centos-7.1_chef-provisionerless.box)
 * [opscode-debian-6.0.10-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_debian-6.0.10-i386_chef-provisionerless.box)
 * [opscode-debian-6.0.10](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_debian-6.0.10_chef-provisionerless.box)
 * [opscode-debian-7.8-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_debian-7.8-i386_chef-provisionerless.box)
 * [opscode-debian-7.8](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_debian-7.8_chef-provisionerless.box)
+* [opscode-debian-8.1-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_debian-8.1-i386_chef-provisionerless.box)
+* [opscode-debian-8.1](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_debian-8.1_chef-provisionerless.box)
 * [opscode-fedora-20-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_fedora-20-i386_chef-provisionerless.box)
 * [opscode-fedora-20](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_fedora-20_chef-provisionerless.box)
 * [opscode-fedora-21-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_fedora-21-i386_chef-provisionerless.box)
@@ -49,6 +51,8 @@ These baseboxes were all built using a Mac OS X host running VirtualBox 4.3.16, 
 * [opscode-ubuntu-14.04](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-14.04_chef-provisionerless.box)
 * [opscode-ubuntu-14.10-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-14.10-i386_chef-provisionerless.box)
 * [opscode-ubuntu-14.10](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-14.10_chef-provisionerless.box)
+* [opscode-ubuntu-15.04-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-15.04-i386_chef-provisionerless.box)
+* [opscode-ubuntu-15.04](http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-15.04_chef-provisionerless.box)
 
 ### VMWare
 
@@ -63,11 +67,13 @@ these boxes. Using `--provider vmware_fusion`, will not.
 * [opscode-centos-5.11](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_centos-5.11_chef-provisionerless.box)
 * [opscode-centos-6.6-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_centos-6.6-i386_chef-provisionerless.box)
 * [opscode-centos-6.6](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_centos-6.6_chef-provisionerless.box)
-* [opscode-centos-7.0](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_centos-7.0_chef-provisionerless.box)
+* [opscode-centos-7.1](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_centos-7.1_chef-provisionerless.box)
 * [opscode-debian-6.0.10-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_debian-6.0.10-i386_chef-provisionerless.box)
 * [opscode-debian-6.0.10](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_debian-6.0.10_chef-provisionerless.box)
 * [opscode-debian-7.8-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_debian-7.8-i386_chef-provisionerless.box)
 * [opscode-debian-7.8](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_debian-7.8_chef-provisionerless.box)
+* [opscode-debian-8.1-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_debian-8.1-i386_chef-provisionerless.box)
+* [opscode-debian-8.1](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_debian-8.1_chef-provisionerless.box)
 * [opscode-fedora-20-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_fedora-20-i386_chef-provisionerless.box)
 * [opscode-fedora-20](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_fedora-20_chef-provisionerless.box)
 * [opscode-fedora-21-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_fedora-21-i386_chef-provisionerless.box)
@@ -86,6 +92,8 @@ these boxes. Using `--provider vmware_fusion`, will not.
 * [opscode-ubuntu-14.04](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_ubuntu-14.04_chef-provisionerless.box)
 * [opscode-ubuntu-14.10-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_ubuntu-14.10-i386_chef-provisionerless.box)
 * [opscode-ubuntu-14.10](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_ubuntu-14.10_chef-provisionerless.box)
+* [opscode-ubuntu-15.04-i386](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_ubuntu-15.04-i386_chef-provisionerless.box)
+* [opscode-ubuntu-15.04](http://opscode-vm-bento.s3.amazonaws.com/vagrant/vmware/opscode_ubuntu-15.04_chef-provisionerless.box)
 
 ## Older Baseboxes
 
@@ -136,7 +144,7 @@ boxes yourself due to licensing constraints. You can build these as follows:
 These veewee definitions are lightly maintained. For other approaches to building Windows boxes, please see the following
 community projects:
 
-* [Mischa Taylor's basebox project](https://github.com/misheska/basebox-packer/)
+* [Mischa Taylor's Boxcutter project](https://github.com/boxcutter)
 * [Vagrant Windows Boxes and Puppet](https://github.com/ferventcoder/vagrant-windows-puppet/tree/master/baseboxes)
 
 ### Special Note About Building from Windows Hosts
